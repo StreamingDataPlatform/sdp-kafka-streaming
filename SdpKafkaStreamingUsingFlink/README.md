@@ -16,27 +16,27 @@ This code sample demonstrates the capabilities of flink application created on S
     - Use `maven` to build the artifacts
 2. Upload the jar through UI in SDP
 3.  Go to Artifactory tab under your project in SDP UI and upload the above jar created above.
-![image](https://media.eos2git.cec.lab.emc.com/user/16094/files/64470e05-8b5f-4dd7-a9ae-7f34a9c08e8f)
+![image](https://user-images.githubusercontent.com/125700236/232898695-8cb9411c-3e4f-477c-ae82-a379b4c9af5e.png)
 
 4.  Go to Flink tab under your project in SDP UI
- ![image](https://media.eos2git.cec.lab.emc.com/user/16094/files/dd0e2a3f-b484-46bf-8d96-594625a5ae0e)
+ ![image](https://user-images.githubusercontent.com/125700236/232898799-49f66885-da40-47f1-baf5-27f5e3ed4604.png)
 
 5. Click on tab "Clusters" under Flink and create a flink cluster.
-![image](https://media.eos2git.cec.lab.emc.com/user/16094/files/168f9488-f51f-414e-ad15-545a10779865)
+![image](https://user-images.githubusercontent.com/125700236/232898894-755d98cd-ccf8-4b7e-b8b4-6b9242d69831.png)
 
 6. After creating the cluster, it should be in running state.
-![image](https://media.eos2git.cec.lab.emc.com/user/16094/files/19f8860c-b8dd-4d7a-93d1-61e369451ffc)
+![image](https://user-images.githubusercontent.com/125700236/232899003-72aaad9a-4bc9-410a-be65-2bed09e64570.png)
 
 7. Create the flink application.
-![image](https://media.eos2git.cec.lab.emc.com/user/16094/files/c1327074-a6e2-42d7-b547-c101380fe5eb)
+![image](https://user-images.githubusercontent.com/125700236/232899107-53846132-bdd1-4246-b384-9d78614de3a8.png)
 
 8. Once the application starts running, it should be able to read from the input kafka topic and write to another kafka topic.
-![image](https://media.eos2git.cec.lab.emc.com/user/16094/files/e472870c-d034-4c15-9572-2671d7ce8d49)
+![image](https://user-images.githubusercontent.com/125700236/232899182-cc266761-e69e-4327-bcf7-2916b69c20b7.png)
 
 9. In order to visualize these kafka streams, there are various tools available. Since we are using confluent kafka, it comes in-build with Confluent control center which can be used to visualize kafka data streams. Currently, SDP UI does not provide a capability to visualize these streams on streaming data platform.
 
 10. Input kafka stream consumed by flink application on SDP.
-![image](https://media.eos2git.cec.lab.emc.com/user/16094/files/6324eab3-6484-4508-b2cc-8bddf6683a7b)
+![image](https://user-images.githubusercontent.com/125700236/232899310-dae9c8e2-bcf0-4dc3-a0fc-f6e6525bbb60.png)
 
 11. Output kafka stream produced by  flink application on SDP.
-![image](https://media.eos2git.cec.lab.emc.com/user/16094/files/61cb3ee0-bdfe-4574-82e0-48447332ec78)
+![image](https://user-images.githubusercontent.com/125700236/232899383-b9069f7d-84a9-48f9-b43e-e6e889b910e6.png)
