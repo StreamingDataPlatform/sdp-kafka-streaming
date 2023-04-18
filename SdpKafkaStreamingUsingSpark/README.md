@@ -24,7 +24,7 @@ This code sample demonstrates the capabilities of spark application created on S
 5. In order to visualize these kafka streams, there are various tools available. Since we are using confluent kafka, it comes in-build with Confluent control center which can be used to visualize kafka data streams. Currently, SDP UI does not provide a capability to visualize these streams on streaming data platform.
 
 6. Input kafka stream consumed by spark application on SDP.
-![image](https://user-images.githubusercontent.com/125700236/232899763-c0555f09-b55f-4bef-bb65-b7354e760f72.png)
+![image](https://user-images.githubusercontent.com/125700236/232900000-584f2545-9e77-411a-b044-a2eae53aaa63.png)
 
 7. Output kafka stream produced by spark application on SDP.
 ![img_23.png](images/img_23.png)
