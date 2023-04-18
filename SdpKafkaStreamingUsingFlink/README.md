@@ -3,7 +3,7 @@
 This code sample demonstrates the capabilities of flink application created on SDP that can be used to read data from one kafka topic and write to another kafka topic.
 
 ## Dependencies
-* Refer dependencies section in pom.xml
+* •	Refer to dependencies section in pom.xml under SdpKafkaStreamingUsingFlink folder
 
 ## Deployment
 
